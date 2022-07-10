@@ -142,5 +142,22 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive)
 
 /* =========================== CHANGE BACKGROUND HEADER =========================== */
+function scrollHeader(){
+  const nav = document.getElementById('header')
+  // when the scroll is greater the 200 viewport height, add the scroll-header class to the header tag
+  if(this.scrollY >= 80) nav.classList.add('scroll-header');
+  else nav.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', scrollHeader)
+/* =========================== SCROLL UP =========================== */
+
+function scrollUp(){
+  const scrollUp = document.getElementById('scroll-up');
+  if(this.scrollY >= 560) scrollUp.classList.add('show-scroll');
+  else scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
+
+
 
 /* =========================== GOOGLE FONTS =========================== */
