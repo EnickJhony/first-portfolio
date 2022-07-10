@@ -234,6 +234,10 @@ section {
 
 /* Active Link */
 
+.active-link{
+  color: var(--first-color);
+}
+
 /* Change background header */
 
 /* ======== HOME ======== */
