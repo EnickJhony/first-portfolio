@@ -6,6 +6,6 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-- The original project repository is at [this link] (https://github.com/bedimcode/responsive-portfolio-website-Alexa)
+- The original project repository is at [this link](https://github.com/bedimcode/responsive-portfolio-website-Alexa)
 
 ![preview img](/preview.png)
